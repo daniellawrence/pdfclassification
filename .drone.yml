@@ -1,5 +1,5 @@
 # comment test
-image: ubuntu:14.04
+image: ubuntu:python
 script:
   - apt-get install -y git
   - date
