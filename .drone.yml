@@ -1,12 +1,7 @@
 # comment test
 image: mischief/docker-python
-env:
-  - GOPATH=/var/cache/drone
 script:
-  - go build
-  - go test -v
-services:
-  - redis
+  - date
 notify:
   email:
     recipients:
