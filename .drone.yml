@@ -1,5 +1,5 @@
 # comment test
-image: bradrydzewski/python:2.7
+image: ubuntu:14.04
 script:
   - date
 notify:
