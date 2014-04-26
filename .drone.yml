@@ -1,8 +1,9 @@
 # comment test
 image: ubuntu:python
 script:
-  - apt-get install -y git
   - date
+  - pip list
+  - pip install flask
 notify:
   email:
     recipients:
