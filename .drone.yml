@@ -1,5 +1,5 @@
 # comment test
-image: mischief/docker-python
+image: bradrydzewski/python:2.7
 script:
   - date
 notify:
