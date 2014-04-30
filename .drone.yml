@@ -1,10 +1,4 @@
 # comment test
 image: ubuntu:python
 script:
-  - date
-  - pip list
-  - pip install flask
-notify:
-  email:
-    recipients:
-      - dannyla@linux.com
+  - /usr/local/bin/pip install -U flask
