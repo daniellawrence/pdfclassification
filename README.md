@@ -16,3 +16,6 @@ Needs python-dev and python-pip
 
     sudo apt-get install -y python python-pip python-dev
 	pip install -r requirements.txt
+
+
+TEST
